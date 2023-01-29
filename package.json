@@ -1,0 +1,37 @@
+{
+  "name": "lohiv-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server.js",
+  "scripts": {
+    "test": "nodemon",
+    "ts": "npx concurrently \"npx tsc\" \"nodemon -q ./dist/\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.2.0",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "express-session": "^1.17.3",
+    "file-type": "^16.5.4",
+    "mysql2": "^2.3.3",
+    "nanoid": "^3.3.4",
+    "nodemon": "^2.0.19",
+    "strip-dirs": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-session": "^1.17.3",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^18.0.1",
+    "concurrently": "^7.2.2",
+    "typescript": "^4.7.4"
+  }
+}
